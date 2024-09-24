@@ -64,10 +64,15 @@
 
         static float Add(int no1, int no2)
         {
-            
+
             float sum = no1 + no2;
             return sum;
 
+        }
+
+        static float Subtract(int num1, int num2)
+        { 
+            return num1 - num2; 
         }
     }
 }
