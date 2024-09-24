@@ -8,6 +8,7 @@
 
             while (myBool)
             {
+                Console.WriteLine("Hej");
                 Console.WriteLine("Välkommen till miniräknaren!");
 
                 int num1 = 0;
