@@ -48,24 +48,24 @@
                 {
                     case 1:
 
-                        Console.WriteLine($"Ditt svar blev: {Add(num1, num2)}/n/nTryck valfri tangent för att komma vidare");
+                        Console.WriteLine($"Ditt svar blev: {Add(num1, num2)}");
                         Console.ReadKey();
                         break;
 
                     case 2:
                         
-                        Console.WriteLine($"Ditt svar blev: {Subtract(num1, num2)}/n/nTryck valfri tangent för att komma vidare");
+                        Console.WriteLine($"Ditt svar blev: {Subtract(num1, num2)}");
                         Console.ReadKey();
                         break;
                         
                     case 3:
                         
-                        Console.WriteLine($"Ditt svar blev: {Multiply(num1, num2)}/n/nTryck valfri tangent för att komma vidare");
+                        Console.WriteLine($"Ditt svar blev: {Multiply(num1, num2)}");
                         Console.ReadKey();
                         break;
 
                     case 4:
-                        Console.WriteLine($"Ditt svar blev: {Division(num1, num2)}/n/nTryck valfri tangent för att komma vidare");
+                        Console.WriteLine($"Ditt svar blev: {Division(num1, num2)}");
                         Console.ReadKey();
                         break;
 
