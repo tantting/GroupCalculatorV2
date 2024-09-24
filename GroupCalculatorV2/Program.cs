@@ -49,7 +49,8 @@
                         break;
 
                     case 4:
-                        //Metod för division
+                        float quota = Division(num1, num2);
+                        Console.WriteLine($"{num1} / {num2} = {quota}");
                         break;
 
                     case 5:
@@ -73,6 +74,12 @@
         static float Subtract(int num1, int num2)
         { 
             return num1 - num2; 
+        }
+
+        static float Division(int num1, int num2)
+        {
+            float quota = (float) (num1 / num2);
+            return quota;
         }
     }
 }
