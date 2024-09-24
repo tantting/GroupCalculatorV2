@@ -47,11 +47,12 @@
                         
                         Console.WriteLine($"Ditt svar blev: {Subtract(num1, num2)}");
                         Console.ReadKey();
-                        
                         break;
+                        
                     case 3:
-                        //Metod för multiplikation
-
+                        
+                        Console.WriteLine($"Ditt svar blev: {Multiply(num1, num2)}");
+                        Console.ReadKey();
                         break;
 
                     case 4:
@@ -82,6 +83,11 @@
         static float Subtract(int num1, int num2)
         { 
             return num1 - num2; 
+        }
+        static double Multiply(int x, int y)
+        {
+            double sum = x * y;
+            return sum;
         }
 
         static float Division(int num1, int num2)
