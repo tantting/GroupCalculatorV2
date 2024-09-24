@@ -87,7 +87,7 @@
         static float Division(int num1, int num2)
         {
             float quota = (float) (num1 / num2);
-            return quota;
+            return quota; 
         }
     }
 }
