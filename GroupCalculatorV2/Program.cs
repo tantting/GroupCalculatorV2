@@ -8,16 +8,10 @@
 
             while (myBool)
             {
+
+                Console.Clear();
                 Console.WriteLine("Hej");
                 Console.WriteLine("Välkommen till miniräknaren!");
-                Console.WriteLine("\nVälj din uträkningsmetod");
-                Console.WriteLine("[1] Addera");
-                Console.WriteLine("[2] Subtrahera");
-                Console.WriteLine("[3] Multiplicera");
-                Console.WriteLine("[4] Dividera");
-                Console.WriteLine("[5] Avsluta programmet");
-
-                int userInput = Convert.ToInt32(Console.ReadLine());
 
                 int num1;
                 int num2;
@@ -32,16 +26,28 @@
                 {
                     Console.WriteLine("Felaktig input!\n\nAnge ett heltal");
                 }
+                
+                Console.WriteLine("\nVälj din uträkningsmetod");
+                Console.WriteLine("[1] Addera");
+                Console.WriteLine("[2] Subtrahera");
+                Console.WriteLine("[3] Multiplicera");
+                Console.WriteLine("[4] Dividera");
+                Console.WriteLine("[5] Avsluta programmet");
 
+                int userInput = Convert.ToInt32(Console.ReadLine());
                 switch (userInput)
                 {
                     case 1:
 
                         Console.WriteLine($"Ditt svar blev: {Add(num1, num2)}");
+                        Console.ReadKey();
                         break;
 
                     case 2:
-                        Subtract(num1, num2);
+                        
+                        Console.WriteLine($"Ditt svar blev: {Subtract(num1, num2)}");
+                        Console.ReadKey();
+                        
                         break;
                     case 3:
                         //Metod för multiplikation
@@ -51,9 +57,11 @@
                     case 4:
                         float quota = Division(num1, num2);
                         Console.WriteLine($"{num1} / {num2} = {quota}");
+                        Console.ReadKey();
                         break;
 
                     case 5:
+                        Console.WriteLine("Tack för besöket, välkommen åter!");
                         myBool = false;
                         break;
                 }
