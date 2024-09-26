@@ -10,7 +10,7 @@
             {
 
                 Console.Clear();
-                Console.WriteLine("Hej");
+                Console.WriteLine("Hej! Testar regler på Git");
                 Console.WriteLine("Välkommen till miniräknaren!");
 
                 Console.WriteLine("\nVälj din uträkningsmetod");
@@ -97,7 +97,7 @@
 
         static float Division(int num1, int num2)
         {
-            float quota = (float) (num1 / num2);
+            float quota = (float) num1 / num2;
             return quota; 
         }
     }
