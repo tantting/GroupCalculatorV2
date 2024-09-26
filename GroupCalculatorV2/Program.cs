@@ -10,7 +10,7 @@
             {
 
                 Console.Clear();
-                Console.WriteLine("Hej! Testar igen");
+                Console.WriteLine("Hej! Testar ny regel");
                 Console.WriteLine("Välkommen till miniräknaren!");
 
                 Console.WriteLine("\nVälj din uträkningsmetod");
